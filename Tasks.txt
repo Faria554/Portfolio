@@ -1,0 +1,9 @@
+﻿1-Estrutura dos arquivos - Feito
+2-Header - Feito
+3-Menu - Feito
+4-Conhecimentos - a Fazer
+5-Projectos - Por fazer
+6-Contactos - Por fazer
+7-Rodapé - Por fazer
+8-Loading - Por fazer
+9-Responsividade - Por fazer

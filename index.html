@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+
+
+    <!-- Divisão que contém todo o conteúdo da página -->
+    <div class="container">
+
+        <div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
+
+
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+
+        <!-- Sessão do header -->
+        <header id='header'>
+            <!-- Embrulho que contém o background do header -->
+            <div class="img-wrapper">
+                <!-- Background do header-->
+                <img src="Images/bg.jpg" alt="">
+            </div>
+
+            <!-- Banner -->
+            <div class="banner">
+                <h1>Desenvolvedor Web</h1>
+                <p>Sérgio Leite Faria</p>
+                <button>Saiba mais</button>
+            </div>
+
+            <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#header" class="menu-link">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#conhecimentos" class="menu-link">Conhecimentos</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Projectos</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">Contactos</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="social-media">
+                    <a href="https://facebook.com/sergioleitefaria" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sergioleitefaria/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/s%C3%A9rgio-faria-520904161/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </aside>
+        </header>
+
+
+        <section id='conhecimentos' class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consequatur!</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, magni.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, perferendis.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Base de Dados</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, laboriosam?
+                        </p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, cumque.</p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-wordpress"></i>
+                        <h3>Wordpress</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, excepturi!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path 
+            fill="#6a3093" fill-opacity="1" d="M0,160L60,170.7C120,181,240,203,360,192C480,181,600,139,720,149.3C840,160,960,224,1080,213.3C1200,203,1320,117,1380,74.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
